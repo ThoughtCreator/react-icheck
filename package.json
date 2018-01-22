@@ -5,15 +5,10 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "babel ./src -d lib",
-    "gh-pages": "gulp publish:examples",
     "lint": "eslint src examples/src",
     "prepublish": "npm run build",
     "start": "gulp dev",
     "test": "npm run lint && gulp build --p"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/luqin/react-icheck"
   },
   "license": "ISC",
   "files": [
